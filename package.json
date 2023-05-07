@@ -1,0 +1,23 @@
+{
+  "name": "restful-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SET DEBUG=restful-api:* & nodemon ./bin/www",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "mongoose": "^7.1.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
